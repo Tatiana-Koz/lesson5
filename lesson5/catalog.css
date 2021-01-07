@@ -1,0 +1,34 @@
+.container-product-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    /*поставила белый вместо #eaeaea так как картинки на белом фоне, если поставить цвет из задания выглядит ужасно*/
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.product-card img {
+    height: 200px;
+}
+
+.price h1 {
+    color: rgb(70, 67, 66);
+    margin: 0px;
+}
+
+.overview-card {
+    font-size: medium;
+    padding-bottom: 15px;
+}

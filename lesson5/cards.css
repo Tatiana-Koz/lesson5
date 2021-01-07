@@ -1,0 +1,99 @@
+.price-reviews-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 700px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+table {
+    background-color: white;
+    text-align: center;
+}
+
+th {
+    background-color: #d36114;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+td {
+    background-color: rgb(218, 216, 216);
+    padding: 10px;
+}
+
+.product-card img {
+    width: 150px;
+    margin: 20px;
+    outline: solid 2px #b9b9b9;
+    padding: 10px;
+}
+.product-card img:hover {    
+    outline: none;  
+}
+
+.price h1 {
+    color: rgb(70, 67, 66);
+    margin: 0px;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.full-description {
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.overview-card {
+    font-size: medium;
+    padding-bottom: 15px;
+}
+
+.customer-reviews {
+    background-color: grey;
+    padding: 10px;
+}
+
+.customer-reviews a {
+    color: white;
+}
+
+.specification ul li {
+    list-style-image: url(./img/checkbox_mark_icon_160923.png);
+}
+
+.product-card p::first-letter{
+    color: #d36114;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}

@@ -1,0 +1,147 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.container{
+    display: flex;   
+    align-items: center; 
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;   
+    text-align: center;
+    max-width: 700px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+hr {
+    border: 0;
+    border-bottom: 2px solid #d36114;
+    margin: auto;
+    width: 100%;
+}
+
+.navigation ul li {
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid #d36114;
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #d36114;
+}
+
+.navigation li:hover {
+    cursor: pointer;
+}
+
+.container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: small;
+    color: rgb(194, 192, 192);
+    background-color: rgb(39, 38, 38);
+    height: 40px;
+    padding-right: 30px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {    
+    text-align: left;
+    margin: 10px;
+}
+
+.contact-form {
+    margin: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: solid #d36114 2px;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;    
+}
+
+.form input{
+    width: 150px;
+    height: 20px;
+    margin: 10px;
+    color: grey;
+    font-size: 14px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+textarea, select {
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.form input:nth-child(3):focus {
+    color: #f8f6f5;
+    background-color: #d36114;
+}
+
+button {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #d36114;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.map {
+    outline: 2px solid #d36114;
+}
